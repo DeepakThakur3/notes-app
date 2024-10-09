@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f4f8; /* Soft, light background */
+  }
+  
+  /* Container for the entire app */
+  .container {
+    max-width: 600px; /* Restrict the width */
+    margin: auto; /* Center the container */
+    padding: 20px;
+    background: #ffffff; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Headings */
+  h1 {
+    color: #333; /* Dark color for main heading */
+    text-align: center; /* Centering the title */
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger size */
+  }
+  
+  h2 {
+    color: #444; /* Slightly lighter heading color */
+    margin-bottom: 10px;
+  }
+  
+  /* Input styles */
+  input[type="text"] {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    width: calc(100% - 140px); /* Dynamic width */
+    transition: border 0.3s; /* Smooth border transition */
+    font-size: 1em; /* Base font size */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #5cb85c; /* Green border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styles */
+  button {
+    padding: 12px 20px; /* Larger button */
+    border: none;
+    border-radius: 8px;
+    background-color: #5cb85c; /* Green background */
+    color: white;
+    font-size: 1em; /* Match input size */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  /* Dropdown styles */
+  select {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff; /* White background */
+    font-size: 1em; /* Match input size */
+  }
+  
+  /* Notes container */
+  .notes-container {
+    margin-top: 20px;
+  }
+  
+  /* Individual note styling */
+  .note {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition for scaling */
+  }
+  
+  .note:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  /* Note text styling */
+  .note p {
+    margin: 5px 0;
+    line-height: 1.5; /* Better spacing between lines */
+  }
+  
+  /* Metadata for notes */
+  .note-meta {
+    font-size: 0.8em; /* Smaller font size */
+    color: #888; /* Lighter gray for metadata */
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px;
+    font-size: 0.9em; /* Smaller footer text */
+    color: #777; /* Lighter color for footer text */
+  }
+  
